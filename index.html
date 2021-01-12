@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--<link href="styles.css" rel="stylesheet" type="text/css"> is the order important? -->
+  <!--FONT LINK-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:400, 700" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <!-- Full Profile Card -->
+  <main>
+    <!-- Top of card -->
+    <div class="card-top">
+      <img class="profile-img" src="./images/image-victor.jpg" alt="Victor's Face">
+    </div>
+    <!-- Middle of card -->
+    <div>
+      <h1 class="name">Victor Crest <span class="age">26</span></h1>
+      <h2 class="city">London</h2>
+    </div>
+    <!-- Bottom of card -->
+    <div class="card-bot">
+      <div>
+        <h3 class="big-text">80K</h3>
+        <p class="sm-text">Followers</p>
+      </div>
+      <div>
+        <h3 class="big-text">803K</h3>
+        <p class="sm-text">Likes</p>
+      </div>
+      <div>
+        <h3 class="big-text">1.4K</h3>
+        <p class="sm-text">Photos</p>
+      </div>
+    </div>
+  </main>
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+  <!-- FM Footer Message -->
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="www.linkedin.com/in/dee-fujii-440614203">Dee Fujii</a>.</p>
   </div>
 </body>
+
 </html>
